@@ -3,7 +3,7 @@
 // See https://github.com/julia-vscode/julia-devcontainer/blob/master/Dockerfile for image contents
 {
 	"name": "Julia (Community)",
-	"image": "ghcr.io/julia-vscode/julia-devcontainer:1.7.1",
+	"image": "ghcr.io/julia-vscode/julia-devcontainer:1.7.3",
 
 	// Configure tool-specific properties.
 	"customizations": {
