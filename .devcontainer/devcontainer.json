@@ -16,7 +16,7 @@
 		}
 	},
 
-	"postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl",
+	"postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl && julia -e 'import Pkg; Pkg.update()'",
 
 	"remoteUser": "vscode"
 }
