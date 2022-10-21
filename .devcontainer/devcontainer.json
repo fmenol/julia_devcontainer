@@ -18,7 +18,7 @@
 
 	// "postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl && julia -e 'import Pkg; Pkg.update()' && julia -e 'import Pkg; Pkg.add(name=\"Distributions\",version=\"0.25.66\"); using Distributions'",
 
-	// "postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl && bash ./.devcontainer/postCreateCommand.sh",
-	"postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl",
+	"postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl && bash ./.devcontainer/postCreateCommand.sh",
+	// "postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl",
 	"remoteUser": "root"
 }
